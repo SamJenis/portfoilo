@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)20%), url(sam2.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#skills i{
+  height: 100px;
+  width: 100px;
+}
+#projects img{
+    height: 300px;
+    object-fit: cover;
+}
+#cv img{
+    width: 180px;
+    
+}
+.social-icons a{
+    width: 35px;
+    height: 35px;
+}
+#contact{
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.Technical{
+    margin-left: 35%;
+}
